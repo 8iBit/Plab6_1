@@ -32,7 +32,7 @@ double pythagoras(double xcomp, double ycomp)
     return pyt; 
 }
 
-void showResult(double result_vec_length, double result_vec_direction)
+double showResult(double result_vec_length, double result_vec_direction)
 {
     cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%" << "\n";
     cout << "Length of the resultant vector = " << result_vec_length << "\n";
